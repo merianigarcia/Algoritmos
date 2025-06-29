@@ -1,0 +1,15 @@
+Algoritmo "Dobrar o valor"
+
+Var
+valor, dobro: real
+
+
+
+Inicio
+escreva ("Digite o valor: ")
+leia (valor)
+dobro <- valor * 2
+escreva ("O dobro do valor é: ", Dobro)
+
+
+Fimalgoritmo
