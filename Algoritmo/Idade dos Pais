@@ -1,0 +1,19 @@
+Algoritmo "Idade dos Pais"
+
+Var
+idadeDamae, idadeDopai, soma, media: real
+
+
+Inicio
+escreval("Digite a idade da sua mãe")
+leia (idadeDamae)
+escreval ("Digite a idade do seu Pai")
+leia (idadeDopai)
+soma <- idadeDamae + idadeDopai
+media <- soma / 2
+escreval ("A soma das idades é: ", soma)
+escreval ("A media das idades é: ", media)
+
+
+
+Fimalgoritmo
