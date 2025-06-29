@@ -1,0 +1,19 @@
+Algoritmo "parOuimpar"
+
+Var
+n: inteiro
+
+
+Inicio
+ escreval ("escreva um numero aleatório")
+ leia (n)
+ se (n % 2 = 0) entao
+    escreval ("o numero ", n, " é PAR")
+    escreva ("Isso significa que não é Impar kkk")
+ senao
+    escreval ("o numero ", n, " é IMPAR")
+    escreva ("Isso significa que não é Par kkk")
+ Fimse
+   
+Fimalgoritmo
+
