@@ -12,7 +12,7 @@ leia (idadeDopai)
 soma <- idadeDamae + idadeDopai
 media <- soma / 2
 escreval ("A soma das idades é: ", soma)
-escreval ("A media das idades é: ", media)
+escreval ("A media das idades é: ", media:5:2)
 
 
 
