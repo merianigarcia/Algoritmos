@@ -1,0 +1,17 @@
+Algoritmo "Subtração e Multiplicação"
+
+Var  valor1, valor2, Subtracao, Multiplicacao: real
+
+
+Inicio
+escreval ("Digite o Primeiro Valor: ")
+leia (valor1)
+escreval ("Digite o Segundo Valor: ")
+leia (valor2)
+subtracao <- valor1 - valor2
+multiplicacao <- valor1 * valor2
+escreval ("A Subtracao é: ", Subtracao)
+escreval ("A Multiplicacao é: ", Multiplicacao)
+
+
+Fimalgoritmo
