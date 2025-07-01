@@ -1,0 +1,20 @@
+Algoritmo "Maior Idade"
+
+Var
+    anoNascimento, anoAtual, idade: inteiro
+    
+
+Inicio
+ escreval("Qual sua idade?")
+ leia(anoNascimento)
+ escreval("Qual ano atual?")
+ leia (anoAtual)
+ idade<- anoAtual - anoNascimento
+ se (idade<=21)entao
+    escreval"voce nao atingiu a maior idade")
+ senao
+      escreva("voce atingiu a maior idade")
+
+
+
+Fimalgoritmo
