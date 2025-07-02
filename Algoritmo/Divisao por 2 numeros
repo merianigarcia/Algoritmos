@@ -1,0 +1,29 @@
+Algoritmo "Divisao por dois numeros"
+
+Var
+ n1,n2,resultado:real
+
+
+Inicio
+escreval("Digite o primeiro numero")
+leia (n1)
+escreval ("Digite o segundo numero")
+leia (n2)
+resultado <- n1/n2
+se n2=0 entao
+   escreva("Esse numero nao pode ser dividido por 0")
+
+senao
+    escreva("resultado ",resultado)
+
+    Fimse
+    
+
+
+
+
+
+
+
+
+Fimalgoritmo
