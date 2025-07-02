@@ -1,0 +1,28 @@
+Algoritmo "Salário"
+
+Var
+ salario1,salario2,salario,nome,aumento:real
+
+
+
+Inicio
+
+escreva("Qual nome do Funcionario?")
+leia (nome)
+escreva("Qual salario do Funcionário?")
+leia (salario)
+se (salario<=1000) entao
+   salario1<- salario + 200
+   escreva(" Voce ganhou um aumento 200R$")
+          senao salario2<- + 50
+            escreva("voce ganhou um aumento 50$")
+            
+            Fimse
+             
+   
+
+
+
+
+
+  FImalgoritmo
