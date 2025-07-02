@@ -1,0 +1,30 @@
+Algoritmo "Notas A,R,R"
+
+Var
+  nota1,nota2,nota3,media:real
+
+
+Inicio
+ escreval ("Digite a primeira nota")
+ leia (nota1)
+ escreval ("Digite a segunda nota")
+ leia (nota2)
+ escreval ("Digite a terceira nota")
+ leia (nota3)
+ 
+ media <- (nota1+nota2+nota3)/3
+ se media>=7 entao
+ 
+    escreval ("APROVADO!!")
+ senao
+ 
+ se (media<7)e(media>=5)entao
+ 
+    escreval ("RECUPERAÇÂO!!")
+ se (media<5) entao
+     escreva ("REPROVADO")
+  Fimse
+    
+Fimse
+    
+Fimse
