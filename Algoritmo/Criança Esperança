@@ -1,0 +1,52 @@
+Algoritmo "CRIANÇA_ESPERANÇA"
+// 
+
+Var
+doar:inteiro
+valor: real
+
+
+Inicio
+ escreval (" Criança Esperança")
+ escreval ("[1] para doar R$15,00")
+ escreval ("[2] para doar R$30,00")
+ escreval ("[3] para doar R$50,00")
+ escreval ( "[4] para doar outro valor")
+ escreval ("[5] para cancelar")
+ escreval (" Escolha uma das opçoes acima: ")
+ 
+ leia (doar)
+ 
+ escolha doar
+     caso 1
+      valor<-15
+       escreval ("valor da doação é de R$ ", valor:5:2)
+     
+      caso 2
+       valor<-30
+        escreva ("valor da doação é de R$ ", valor:5:2)
+     
+     caso 3
+      valor<-50
+       escreva ("valor da doação é de R$ ", valor:5:2)
+     
+     caso 4
+      escreva ("Qual o valor da doação")
+      leia ( valor)
+      escreva (" o valor da doação é de R$", valor:5:2)
+      
+     
+     caso 5
+      valor <-0
+       escreva ("doação cancelada")
+
+Fimescolha
+      
+     
+     
+     
+
+     
+     
+
+Fimalgoritmo
