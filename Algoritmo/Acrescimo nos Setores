@@ -1,0 +1,43 @@
+Algoritmo "Acrescimo Setores"
+// 
+
+Var
+setor: caractere
+salario:real
+novo_salario: real
+
+Inicio
+
+escreva (" digite o setor (informática , Administração, Marketing ou Contabilidade): ")
+leia (setor)
+escreva (" Digite o Salário Atual : R$ ")
+leia (salario)
+
+se(setor =  "informatica") entao
+    novo_salario <- (salario*10/100)+salario
+    escreval ("Aumento de 10%")
+     senao
+      se  ( setor = "administracao" ) entao
+       novo_salario <- (salario*8/100)+ salario
+       escreval ("Aumento de 8%")
+         senao
+          se (setor = "marketing") entao
+           novo_salario <- (salario*6/100)+salario
+            escreval ("Aumento de 6%")
+           
+           senao
+             se (setor = "contabilidade") entao
+              novo_salario <- (salario*5/100)+salario
+              escreval ("Aumento de 5%")
+
+
+              
+              fimse
+            fimse
+        fimse
+      fimse
+      
+escreval("O novo salário com aumento é: R$ ", novo_salario:5:2)
+     
+     
+ Fimalgoritmo
