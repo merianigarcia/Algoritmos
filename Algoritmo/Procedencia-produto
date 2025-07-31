@@ -1,0 +1,48 @@
+
+Algoritmo "Procedencia/Produto"
+
+Var
+   preco: real
+   codigo: inteiro
+
+Inicio
+   escreva("Digite o preço do produto: R$ ")
+   leia(preco)
+
+   escreva("Digite o código de origem (1 a 30): ")
+   leia(codigo)
+
+   se (codigo = 1) entao
+      escreval("Procedência: Sul")
+   senao
+	     se (codigo = 2) entao
+          escreval("Procedência: Norte")
+       senao
+         se (codigo = 3) entao
+            escreval("Procedência: Leste")
+        senao
+       	  se (codigo = 4) entao
+             escreval("Procedência: Oeste")
+         senao
+   	      se (codigo = 5) ou (codigo = 6) entao
+               escreval("Procedência: Nordeste")
+        senao
+	        se (codigo >= 7) e (codigo <= 9) entao
+              escreval("Procedência: Sudeste")
+       senao
+	        se (codigo >= 10) e (codigo <= 20) entao
+              escreval("Procedência: Centro-Oeste")
+       senao
+	       se (codigo >= 21) e (codigo <= 30) entao
+             escreval("Procedência: Sem Definição")
+       senao
+                   escreval("Código inválido!")
+                fimse
+              fimse
+           fimse
+         fimse
+       fimse
+     fimse
+   fimse
+ fimse
+Fimalgoritmo
