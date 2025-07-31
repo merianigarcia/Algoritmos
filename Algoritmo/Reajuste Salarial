@@ -1,0 +1,36 @@
+Algoritmo "Reajuste Salarial"
+
+Var
+nome: caractere
+salario:real
+novo_salario: real
+dependentes: inteiro
+
+Inicio
+escreval ("Digite o  nome do Funcionário")
+leia (nome)
+escreval ("Digite o Salário atual: R$")
+leia (salario)
+escreval ("Digite o Número de dependentes")
+leia (dependentes)
+ escolha dependentes
+ 
+ caso  0
+ novo_salario <- salario +( salario * 0.05)
+ caso 1,2,3
+ novo_salario <- salario +( salario * 0.10)
+ caso 4,5,6
+ novo_salario <- salario +( salario * 0.15)
+ outro caso
+ noco_salario <- salario +(salario * 0.18)
+
+  fimescolha
+  
+  
+  escreval (" Funcionário ", nome )
+  escreva (" Salário com reajuste R$ ", novo_salario:5:2)
+
+
+
+
+fimalgoritmo
