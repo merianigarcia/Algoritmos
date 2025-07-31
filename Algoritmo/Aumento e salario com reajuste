@@ -1,0 +1,66 @@
+
+Algoritmo "Aumento e salario com reajuste"
+
+Var
+nome : caractere
+salario_reajustado: real
+percentual_aumento: real
+salario:real
+codigo:inteiro
+cargo:caractere
+
+Inicio
+ escreval ("Digite o nome do Funcionário ")
+ leia (nome)
+ escreval (" Digite o Salário do Funcionário ")
+leia (salario)
+escreva (" Digite o codigo do Cargo ")
+
+leia ( codigo)
+
+escolha codigo
+
+caso 1
+cargo <- "escriturario"
+percentual_aumento <- 0.50
+
+caso 2
+cargo <- "secretario"
+percentual_aumento <- 0.35
+
+caso 3
+cargo <- "caixa"
+percentual_aumento <- 0.20
+
+caso 4
+cargo <- "gerente"
+percentual_aumento <- 0.10
+
+caso 5
+cargo <- diretor
+percentual_aumento <-  0.00
+
+
+  fimescolha
+  
+salario_reajustado  <- salario + (salario * percentual_aumento)
+  
+  
+  escreval ("Dados do Funcionário")
+  escreva (" nome: ", nome)
+  escreval (" codigo do cargo: ", codigo)
+  escreval (" salario original: R$ ", salario:5:2)
+  
+  se (percentual_aumento > 0) entao
+     escreval ("Percentual de aumento: R$ ", percentual_aumento * 100, "%")
+  senao
+       escreval("percentual de aumento : Nao tem Aumento")
+   fimse
+
+   escreva ("Salario Reajustado: R$ ", salario_reajustado:5:2)
+
+
+
+
+
+fimalgoritmo
