@@ -1,0 +1,49 @@
+
+Algoritmo "Calculadora"
+
+Var
+valor1, valor2, resultado: real
+opcao: inteiro
+
+
+Inicio
+ escreval ("Digite um Valor")
+ leia (valor1)
+ escreval (" Digite outro Valor")
+ leia (valor2)
+ escreval(" escolha a operação")
+ escreval ("1 <- soma")
+ escreval ("2 <- subtração")
+ escreval ("3 <-multiplicação")
+ escreval ("4 <- divisão")
+ escreval (" opçao")
+ leia (opcao)
+ caso 1
+  resultado <- valor1 + valor2
+  escreval ("resutado da soma: ", resultado:5:2)
+
+  caso 2
+  resultado <-valor1 - valor2
+  escreva (" resultado da subtração: ", resultado:5:2)
+  
+  caso 3
+  resultado <- valor1 * valor2
+  escreva (" resultado da multiplicação: ",resultado: 5:2)
+  
+  caso 4
+  
+  se (valor2 <> 0) entao
+     resultado <- valor1 / valor2
+     escreva("resultado da divisao: ", resultado:5:2)
+  senao
+       escreva (" ERRO : divisao por zero!")
+
+       fimse
+       
+       outrocaso
+                escreva ("opção inválida")
+
+                fimescolha
+
+
+fimalgoritmo
