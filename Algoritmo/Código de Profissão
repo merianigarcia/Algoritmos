@@ -1,0 +1,39 @@
+
+
+Algoritmo "Código de Profissão"
+
+Var
+nome : caractere
+codigo: inteiro
+resposta: caractere
+
+Inicio
+  escreval (" Digite o nome do Funcionário")
+  leia (nome)
+  escreval (" Digite o Codigo da profissao de 1 a 5 ")
+  leia ( codigo)
+  escreval ("Funcionário: ", nome)
+  escolha codigo
+  caso  1
+    resposta <- "matemático"
+       escreval ("Olá!, ", nome, " Sua Ocupação é ", resposta)
+  caso  2
+    resposta <- "Analista de Sistemas"
+      escreval ("Olá!, ", nome, "Sua Ocupação é ", resposta)
+  caso 3
+   resposta <- "Físico"
+      escreval ("Olá!, ", nome, "Sua Ocupação é ", resposta)
+  caso 4
+    resposta <- "Arquiteto"
+     escreval ("Olá!, ", nome, "Sua Ocupação é ", resposta)
+  caso 5
+    resposta <- "Piloto de Aeronaves"
+     escreval ("Olá!, ", nome, "Sua Ocupação é ", resposta)
+
+
+
+
+
+
+  Fimescolha
+fimalgoritmo
