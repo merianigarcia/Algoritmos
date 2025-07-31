@@ -1,0 +1,33 @@
+Algoritmo "Classificação: Idade de uma Pessoa"
+
+Var
+ idade:inteiro
+ 
+
+Inicio
+ escreval (" Digite a Idade do Usuario")
+ leia (idade)
+ se(idade >= 0) e (idade <=2) entao
+   escreva ("Classificação:Recém Nascido ")
+ senao
+    se (idade >= 3) e (idade <= 11) entao
+       escreval(" Classificaçao Criança")
+    senao
+      se (idade >= 12) e (idade <=19) entao
+         escreval("Classificaçao Adolescente")
+      senao
+         se (idade >= 20) e (idade <=60) entao
+            escreval ("Classificaçao Adulto")
+        senao
+            se (idade > 60) entao
+               escreva (" Classificaçao Idoso")
+            senao
+                escreval( "Idade Inválida" )
+
+                      fimse
+                   fimse
+               fimse
+            fimse
+         fimse
+
+Fimalgoritmo
