@@ -1,0 +1,48 @@
+
+Algoritmo "Calculadora de Areas"
+
+Var
+  opcao: inteiro
+  lado,base,altura,raio,area:real
+
+  Inicio
+
+   escreval("Calculadora de Areas")
+   escreval("1 - quadrado")
+   escreval("2 - retângulo")
+   escreval("3 - triângulo")
+   escreval("4 - círculo")
+   escreva("escolha uma opção (1-4): ")
+   leia(opcao)
+   escolha (opcao)
+
+   caso 1
+   escreva("digite o lado do quadrado: ")
+   leia(lado)
+   area := lado * lado
+   escreval("area do quadrado: ", area:5:2)
+    caso 2
+    escreva("digite a base do retângulo: ")
+    leia(base)
+    escreva("digite a altura do retângulo: ")
+    leia(altura)
+    area := base * altura
+    escreval("area do retângulo: ", area:5:2)
+   caso 3
+   escreva("digite a base do triângulo: ")
+   leia(base)
+   escreva("digite a altura do triângulo: ")
+   leia(altura)
+   area := (base * altura) / 2
+   escreval("area do triângulo: ", area:5:2)
+   caso 4
+   escreva("digite o raio do círculo: ")
+  leia(raio)
+   area := PI * raio * raio
+   escreval("area do círculo: ", area:5:2)
+   outrocaso
+     escreval("opção inválida!")
+
+   fimescolha
+   
+fimalgoritmo
