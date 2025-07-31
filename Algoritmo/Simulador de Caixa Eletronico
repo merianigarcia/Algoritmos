@@ -1,0 +1,51 @@
+
+Algoritmo "Simulador de Caixa Eletronico"
+
+Var
+opcao : inteiro
+saldo, valor: real
+
+
+Inicio
+
+ saldo <- 1000.00
+ escreva (" Caixa Eletronico ")
+ escreval("Saldo disponível: R$ ", saldo:5:2)
+
+ escreval("1 - Ver saldo")
+ escreval("2 - Sacar")
+ escreval("3 - Depositar")
+ escreval("4 - Sair")
+ 
+ escreval("Escolha uma opção: ")
+ leia(opcao)
+ 
+  escolha (opcao)
+ caso 1
+ 
+  escreval("Seu saldo atual é: R$ ", saldo:5:2)
+  caso 2
+  escreva("Digite o valor para saque: R$ ")
+  leia(valor)
+  se (valor > 0) e (valor <= saldo) então
+  saldo <- saldo - valor
+  escreval("Saque realizado com sucesso!")
+  senao
+  escreval("Valor inválido ou saldo insuficiente!")
+  fimse
+  caso 3
+  escreva("Digite o valor para depósito: R$ ")
+  leia(valor)
+  se (valor > 0) então
+  saldo := saldo + valor
+  escreval("Depósito realizado com sucesso!")
+  senao
+  escreval("Valor de depósito inválido!")
+  fimse
+  caso 4
+  escreval("Obrigado por utilizar nossos serviços!")
+  outrocaso
+  escreval("Opção inválida!")
+  fimescolha
+
+fimalgoritmo
