@@ -1,0 +1,42 @@
+
+Algoritmo "Conversor de Unidades"
+
+Var
+ valor: real
+ opcao: inteiro
+ resultado:real
+
+
+Inicio
+escreval(" Conversor de Unidades")
+escreval ("1 <- quilometros para milhas")
+escreval ("2 <- celsius para fahrenheit")
+escreval ("3 <- quilogramas para libras")
+escreval ("4 <- metros para centimetros")
+escreval(" Escolha uma Opção")
+leia (opcao)
+escreval ("Escolha Valor a ser Convertido")
+leia (valor)
+escolha (opcao)
+
+caso 1
+ resultado <- valor * 0.621371
+ escreval( valor:5:2, " km = ", resultado:5:2, " milhas")
+ caso 2
+ resultado <- (valor * 1.8) + 32
+ escreval(valor:5:2, " ºC = ", resultado:5:2, " ºF")
+ caso 3
+ resultado <- valor * 2.2046
+ escreval (valor:5:2, " kg = ", resultado:5:2, "libras")
+ caso 4
+ resultado <- valor * 100
+ escreval (valor:5:2, " m = ", resultado:5:2 "cm")
+ 
+ outrocaso
+ escreval(" Opção Inválida ")
+ 
+fimescolha
+ 
+
+
+fimalgoritmo
