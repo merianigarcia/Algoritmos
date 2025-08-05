@@ -1,0 +1,21 @@
+Algoritmo "Contador de 0 ate onde usuario quiser"
+
+Var
+
+  limite: inteiro
+  contador: inteiro
+  
+Inicio
+ escreval ("Escreva até onde quer contar?")
+ leia (limite)
+ contador <-0
+ enquanto contador <= limite faca
+ escreval (contador)
+ contador <- contador + 1
+
+
+
+  fimenquanto
+
+
+Fimalgoritmo
