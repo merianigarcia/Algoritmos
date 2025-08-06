@@ -1,0 +1,26 @@
+Algoritmo "Tabuada"
+
+Var
+constante:inteiro
+numero:real
+resultado:real
+
+
+
+Inicio
+escreval ("Digite um numero")
+leia (numero)
+
+ constante <-0
+ enquanto ( constante <=10) faca
+ resultado <- numero * constante
+ escreval ( numero, "x", constante, "=", resultado)
+ constante  <- constante +  1
+ 
+ 
+  fimenquanto
+ 
+
+
+
+Fimalgoritmo
