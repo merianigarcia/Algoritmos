@@ -1,0 +1,20 @@
+Algoritmo "Contar de 10 a 0"
+
+Var
+  num: inteiro
+
+
+
+Inicio
+  escreval (" Contar de 10 até 0 ")
+  num <-10
+ repita
+  escreval ( num )
+   num <- num -1
+  ate (num<0)
+  
+  escreval(" Fim da Contagem")
+
+
+
+Fimalgoritmo
