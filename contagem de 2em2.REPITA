@@ -1,0 +1,16 @@
+Algoritmo "Contage de 2 em 2"
+
+
+
+Var
+  num: inteiro
+
+Inicio
+ num <- 20
+ repita
+  escreval (num)
+   num <- num -2
+ ate num < 0
+ 
+
+Fimalgoritmo
