@@ -1,0 +1,43 @@
+Algoritmo "Imprimir numeros negativos"
+
+
+
+Var
+numero: inteiro
+negativo: inteiro
+resultado: caractere
+
+
+Inicio
+
+ negativo <-0
+ repita
+ escreval("Digite um número")
+ leia (numero)
+ se numero < 0  entao
+  negativo <- negativo + 1
+
+ fimse
+  
+ ate ( numero<10 )
+ 
+escreval("Quantidades de Números negativos: ",negativo)
+
+ 
+ fimalgoritmo
+ 
+
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+Fimalgoritmo
