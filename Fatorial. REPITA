@@ -1,0 +1,28 @@
+Algoritmo "Fatorial"
+
+
+Var
+
+n, c, f: inteiro
+
+
+Inicio
+
+escreval ("Fatorial")
+escreva ("Escreva um número: ")
+leia (n)
+repita
+
+c<-n
+f<- 1
+
+    f<-f*c
+    c<- c - 1
+
+ate (c<1)
+
+escreval ("Seu resultado é: ", f)
+
+
+
+Fimalgoritmo
