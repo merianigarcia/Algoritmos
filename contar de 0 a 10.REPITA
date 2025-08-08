@@ -1,0 +1,23 @@
+Algoritmo "Contar de 0 a 10"
+
+
+Var
+num: inteiro
+
+
+
+Inicio
+escreval ("Contar de 0 a 10")
+
+num<-0
+
+Repita
+ escreval (num)
+ num<- num + 1
+ate (num>10)
+
+Escreval ("Fim da contagem! :)")
+
+
+
+Fimalgoritmo
