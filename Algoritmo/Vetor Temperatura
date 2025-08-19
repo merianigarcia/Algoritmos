@@ -1,0 +1,37 @@
+Algoritmo "VETOR_TEMPERATURA"
+
+Var
+   temp: vetor[1..12] de inteiro
+   c: inteiro
+   maior, menor: inteiro
+
+Inicio
+   escreval ("Temperatura Média")
+   para c<-1 ate 12 faca
+      escreval("Qual a temperatura do", c,"º mês do ano: ")
+      leia (temp[c])
+
+
+
+      se (c=1) entao
+         maior <- temp[c]
+         menor <- temp[c]
+
+      senao
+         se(temp[c]>maior) entao
+         maior<-temp[c]
+      fimse
+      se (temp[c] < menor) entao
+         menor <- temp[c]
+      fimse
+      fimse
+
+
+   fimpara
+
+   escreval("A maior temperatura do ano foi: ", maior)
+   escreval("A menor temperatura do ano foi: ", menor)
+
+
+
+Fimalgoritmo
