@@ -1,0 +1,18 @@
+Algoritmo "01_VETOR"
+
+Var
+N: vetor [1..5] de inteiro
+cont: inteiro
+
+
+Inicio
+para cont <- 1 ate 5  faca
+ escreval (" Digite o", cont, "° numero: ")
+ leia (N[cont])
+fimpara
+
+para cont <- 1 ate 5   faca
+ escreval("{", N[cont],"}")
+fimpara
+
+Fimalgoritmo
