@@ -1,0 +1,33 @@
+Algoritmo "Vetor_Listagem_de_Aluno"
+
+Var
+nota1:vetor[1..4] de real
+nota2:vetor[1..4] de real
+media:vetor[1..4]de real
+nome: vetor[1..4]de caractere
+c: inteiro: // contador para entrar no looping
+
+Inicio
+escreval (" Listagem de Estudantes" )
+escreval()
+para c <- 1- ate 4 faca
+ escreval (" Estudantes: ",c)
+ escreval ("Nome do Estudante: ")
+ leia (nome[c])
+ escreval (" Primeira Nota do Estudante ")
+ leia (nota1[c])
+ escreval (" Segunda Nota do Estudante")
+ leia (nota2[c])
+ 
+ media[c]<-(nota1[c]+nota2[c]) / 2
+
+ limpatela
+
+ fimpara
+ para c<- 1 ate 4 faca
+  escreval (nome[c]:15, media[c]:4:2)
+  fimpara
+ 
+
+
+Fimalgoritmo
