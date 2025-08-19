@@ -1,0 +1,30 @@
+Algoritmo "00_VETOR_PARES"
+
+Var
+valores: vetor[1..10] de inteiro
+i, pares: inteiro
+
+
+Inicio
+escreval ("Quantidade de Numeros Pares")
+escreval()
+pares <- 0
+
+para i <- 1 ate 10 faca
+escreval ("Informe o", i, "º valor: ")
+leia (valores [i])
+
+se (valores[i] % 2 = 0) entao
+ pares <- pares + 1
+ fimse
+  fimpara
+ escreval (" O total de numeros pares digitados São: ", pares)
+ 
+ para i de 1 ate 10 faca
+  se ( valores[i] % 2 = 0) entao
+   escreval ( "O valor PAR esta na posição: ", i)
+   fimse
+  fimpara
+
+
+Fimalgoritmo
